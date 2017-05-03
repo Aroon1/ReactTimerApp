@@ -1,7 +1,7 @@
 var React = require('react');
 var {Link, IndexLink} = require('react-router');
 
-var Nav = () => {
+var Navigation = () => {
   return (
     <div className="top-bar">
       <div className="top-bar-left">
@@ -20,7 +20,7 @@ var Nav = () => {
       <div className="top-bar-right">
         <ul className="menu">
           <li className="menu-text">
-            Created by God
+            Created by <a href="http://www.mead.io" target="_blank">Andrew Mead</a>
           </li>
         </ul>
       </div>
@@ -28,6 +28,4 @@ var Nav = () => {
   );
 };
 
-
-
-module.exports = Nav;
+module.exports = Navigation;
